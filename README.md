@@ -44,3 +44,7 @@ var query =
         on left.Key equals right.Id
     select new { left, right };
 ```
+
+### NuGet
+
+[This package is available on the nuget.org](https://www.nuget.org/packages/LinqExtensions_leverindev)
