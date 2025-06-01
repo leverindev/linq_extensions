@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+
+    <Authors>leverindev</Authors>
+    <PackageId>LinqExtensions_leverindev</PackageId>
+    <PackageTags>extensions; linq</PackageTags>
+    <Description>The LinqExtensions is a set of extensions that brings a simple and convenient way to write LEFT / RIGHT / FULL OUTER JOIN queries.</Description>
+    <RepositoryUrl>https://github.com/leverindev/linq_extensions</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/leverindev/linq_extensions</PackageProjectUrl>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Title>LinqExtensions</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
